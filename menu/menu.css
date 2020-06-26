@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(pic12.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox{
+    width: 600px;
+    height: 420px;
+    background:#0F0E0E;
+    color: #fff;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    transform: translate(50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.Mocha {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+  }
+  .Mocha-content {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+  }
+  .espresso {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+  }
+  .espresso-content{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+  }
+  .latte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .latte-content {
+    position: absolute;
+    top: 55%;
+    left: 75%;
+  }
+
+  .backicon{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    width:80px;
+    height:80px;
+  }
+  .nexticon{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    width:80px;
+    height:80px;
+  }
+
+  .Americano {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+  }
+  .amriano-content {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#6E2C00;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #A04000;
+  }
+  .active {
+    background-color: #0C0301;
+  }
